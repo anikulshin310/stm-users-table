@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import "./App.css";
 import { Loader } from "./components/Loader";
 import { UsersTable } from "./components/UsersTable";
