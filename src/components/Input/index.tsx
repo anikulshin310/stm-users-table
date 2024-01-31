@@ -21,9 +21,9 @@ export const Input: FC<IProps> = (props) => {
     onChange(debouncedValue);
   }, [debouncedValue]);
   return (
-    <>
+    <div>
       <input onChange={handleValueChange} value={value}></input>
       <button onClick={handleReset}>Сбросить</button>
-    </>
+    </div>
   );
 };
